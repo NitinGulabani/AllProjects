@@ -1,0 +1,60 @@
+/* Registration Design */
+
+.container {
+    width: 500px;
+    padding: 20px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.head {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+.error {
+    margin: 0;
+    color: red;
+}
+
+.sign-in-box {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sign-in {
+    padding: 10px;
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    background-color: #3c8ffa28;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+}
+
+p {
+    margin: 0;
+}
+
+input[type=checkbox] {
+    margin-top: 20px;
+}
+
+.c_pass_error,
+.c_email_error {
+    color: red;
+}
