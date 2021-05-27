@@ -83,7 +83,7 @@ $(document).ready(function() {
                         e.preventDefault();
                     } else if (data == 1) { // Password Is Correct
                         $(".c_pass_error").html("");
-                        $(location).attr('href', "http://localhost/reg-login-form/index.php")
+                        $(location).attr('href', "http://localhost/reg-login-form/welcome-page.php")
                     }
                 }
 
